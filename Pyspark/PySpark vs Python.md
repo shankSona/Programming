@@ -55,6 +55,8 @@ Traditional Python executes most operations **sequentially**, unless you manuall
 
 > 🔹 *Result:* PySpark significantly reduces execution time for heavy data transformations compared to vanilla Python.
 
+
+
 ---
 
 ## ✅ 3. Fault tolerance for data reliability
