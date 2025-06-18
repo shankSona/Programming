@@ -39,6 +39,15 @@ df.filter(df.age > 30)                  # filters rows where age > 30
 df.groupBy("department").count()        # groups and counts
 spark.read.csv("path")                  # reads a CSV file
 ```
+
+These functions are built into the API so you don’t have to manually manage memory, parallelism, or low-level Spark engine operations.
+
+### 📝 In Short
+
+A **set of tools and functions** in an API means:
+
+> Pre-made building blocks that **simplify complex operations** so you can focus on solving business problems, not infrastructure challenges.
+
 ---
 
 ## 🔧 What Happens Under the Hood?
